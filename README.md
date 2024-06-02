@@ -35,3 +35,9 @@ git push origin master
 git checkout master
 git merge notes
 git push origin master
+
+# Delete the local notes branch
+git branch -d notes
+
+# Delete the remote notes branch
+git push origin --delete notes
